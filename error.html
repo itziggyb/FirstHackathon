@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <script src = app.js></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+
+    
+    <title>Charymander</title>
+  </head>
+  <body>
+    <header class = "header">
+        <div class = "container">
+            <div class ="row align-items-center justify-content-between">
+                <div class = "icon">
+                    <a href="#">🐉</a>
+                </div>
+                <button type="button" class="nav-toggler">
+                  <span></span>
+                </button>
+                <nav class ="nav">
+                    <ul>
+                        <li><a href="index.html" class = "active">Home</a></li>
+                        <li><a href="downloadpath.html" class = "active">Download</a></li>
+                        <li><a href="#" class = "active">Subs</a></li>
+                        <li><a href="#" class = "active">About</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id ="error">
+        <h2>Error, that URL was not avaliable</h2>
+    </div>
+    
+    
+  </body>
+</html>
